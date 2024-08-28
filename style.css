@@ -1,3 +1,7 @@
+/* ======================
+======Default Styles=====
+====================== */
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -5,7 +9,16 @@
 
 .img-container {
   height: 180px;
-  width: 100px;
+  margin-top: 55px;
+  padding-left: 30px;
+}
+
+/* ======================
+=======Typography========
+====================== */
+
+h2 {
+  font-family: "Matemasie", sans-serif;
 }
 
 img {
@@ -21,7 +34,9 @@ body {
 main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card-container {
@@ -30,4 +45,21 @@ main {
   color: #ececec;
   display: flex;
   max-width: 500px;
+  border-radius: 10px;
+}
+
+.details-container {
+  padding: 30px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.label,
+.occupation {
+  color: red;
 }
