@@ -36,7 +36,7 @@ main {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 .card-container {
@@ -62,4 +62,8 @@ main {
 .label,
 .occupation {
   color: red;
+}
+
+.occupation {
+  margin-left: 30px;
 }
