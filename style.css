@@ -9,7 +9,7 @@
 
 .img-container {
   height: 180px;
-  margin-top: 55px;
+  margin-top: 65px;
   padding-left: 30px;
 }
 
@@ -61,9 +61,22 @@ main {
 
 .label,
 .occupation {
+  color: blue;
+}
+
+.bLabel {
   color: red;
 }
 
 .occupation {
   margin-left: 30px;
+}
+
+.value {
+  font-family: "Matemasie", sans-serif;
+}
+
+.dValue {
+  font-family: "Matemasie", sans-serif;
+  font-size: 13px;
 }
