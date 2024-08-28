@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img-container {
+  height: 180px;
+  width: 100px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0%;
+}
+
+body {
+  min-height: 100svh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container {
+  border: solid 1px red;
+  background-color: #02021d;
+  color: #ececec;
+  display: flex;
+  max-width: 500px;
+}
